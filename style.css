@@ -1,8 +1,15 @@
 .container {
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color {
+  font-family: "Amazon Ember", sans-serif;
 }
 
 .btn {
+  margin: 20px;
   background-color: #fff;
   border: 1px solid #d5d9d9;
   border-radius: 8px;
